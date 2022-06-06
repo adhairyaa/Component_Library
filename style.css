@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
-  
+  scroll-behavior: smooth;
 }
 body{
 --primary-color-dark:#303841;
@@ -14,40 +14,11 @@ a{
     
 } 
 
-/* INTRO PAGE */
 
-.introImage{
- 
-  min-height: 100%;
-  min-width: 1024px;
+
 
   
-  width: 100%;
-  height: auto;
 
-  
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-@media screen and (max-width: 1024px) { 
-  img.introImage {
-    left: 50%;
-    margin-left: -512px;  
-  }
-}
-  
-.entry-btn{
-    position: absolute;
-    left:70%;
-    bottom:15%;
-    text-decoration:none;
-    border:solid 2px ;
-    padding:1.01rem;
-    font-size:2rem;
-    color:white
-}
 
 .tagLine {
     position:absolute;
@@ -152,10 +123,10 @@ font-size: x-large;
 }
 .section__heading{
     color:var(--primary-color-white);
-    position: -webkit-sticky;
+    
     position: sticky;
     z-index: 4;
-    top: 61px;
+    top: 60px;
     background-color: #303841;
 }
 .section__sb_heading{
