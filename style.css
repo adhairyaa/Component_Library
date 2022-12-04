@@ -2,7 +2,11 @@
 *{
   scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+    display: none;
+  }
 body{
+    
 --primary-color-dark:#303841;
 --primary-color-light: #F6C90E;
 --primary-color-white:#EEEEEE;
@@ -42,8 +46,16 @@ a{
     
    
 }
+.navbar_logo{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-left: 2rem;
+    color:var(--primary-color-light);
+    background:var(--primary-color-dark);
+}
 .navBar__div a{
-    color:var(--primary-color-dark)
+    color:var(--primary-color-dark);
+    font-size:1.3rem
 }
 
 .navBar__list a:hover {
@@ -72,6 +84,7 @@ a{
     margin-top:60px;
     display: grid;
     grid-template-columns: 1fr 10fr;
+    
 }
 .sidebar a{
     color:var(--primary-color-white)
@@ -84,15 +97,16 @@ a{
 .sidebar__menu {
     list-style: none;
     line-height: 2;
-    line-height: 2.5rem;
-    margin-top: ;
+    line-height: 3.5rem;
+    margin-top: 2rem;
     
 }
 .sidebar {
    padding-right: 20px;
-   letter-spacing: 2px;
-   font-weight: bolder;
+   letter-spacing: 4px;
+   font-weight:800;
    position: fixed;
+   font-size: x-large;
 }
 .social_handles{
     display: flex;
@@ -103,8 +117,8 @@ a{
 .handles{
 padding: 5px;
 padding-left: 0;
-
-font-size: x-large;
+color:var(--primary-color-light);
+font-size: 1.7rem;
 }
 .handles:hover{
    animation-timing-function: ease-in-out;
@@ -115,10 +129,15 @@ font-size: x-large;
 
 .main__view{
      
-   margin-left: 200px;
+   margin-left: 250px;
    border-left: solid 2px white;
    height: 100%;
    padding : 1.1rem;
+   font-size: 1.4rem;
+   width: 100%;
+   padding-left: 4rem;
+   
+   
 
 }
 .section__heading{
@@ -188,6 +207,7 @@ font-size: x-large;
    padding-left: 7px;
    opacity: .8;
    border-radius: 3px;
+   width: 70%;
 }
 .alert_text.pink{
     background-color: bisque;
@@ -211,7 +231,9 @@ font-size: x-large;
 
 .button__component{
     display: flex;
-    gap:5px
+    gap:3rem;
+    font-size: 1.4rem;
+    width: 90%;
 }
 .button_style-1{
     border: 0;
@@ -220,7 +242,8 @@ font-size: x-large;
     color: var(--primary-color-dark);
     font-weight: b;
     padding: 6px;
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2)   
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);   
+    font-size: 1.4rem;
 }
 
 .button_style-2{
@@ -229,6 +252,7 @@ font-size: x-large;
     background-color:darkgrey;
     color: var(--primary-color-white);
     transition: background-color .6s ease;
+    font-size: 1.4rem;
 }
 .button_style-3{
     border: 0;
@@ -236,6 +260,7 @@ font-size: x-large;
     background-color:var(--primary-color-dark);
     color: var(--primary-color-light);
     border:2px solid var(--primary-color-light);
+    font-size: 1.4rem;
    
 }
 
@@ -248,11 +273,13 @@ font-size: x-large;
    border: 2px solid #F6C90E;
    color: var(--primary-color-dark);
    padding: 2px;
+   font-size: 1.4rem;
    
 }
    .button_style-4:active{
   
     transform:translateY(4px);
+    font-size: 1.4rem;
     
 }
 
@@ -260,6 +287,7 @@ font-size: x-large;
     border: none;
     color: #EEEEEE;
     background-image: linear-gradient(180deg, #581845, #900C3F, #C70039, #FF5733, #FFC300);
+    font-size: 1.4rem;
 }
 /* ______CARD____ */
 .vertical_card{
