@@ -50,8 +50,7 @@ a{
     font-size: 2rem;
     font-weight: bolder;
     margin-left: 2rem;
-    color:var(--primary-color-light);
-    background:var(--primary-color-dark);
+    
 }
 .navBar__div a{
     color:var(--primary-color-dark);
