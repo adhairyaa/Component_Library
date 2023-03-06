@@ -6,7 +6,9 @@ html {
 body {
   background: #303841;
 }
-
+.ripple-background {
+  position: absolute;
+}
 .circle {
   position: absolute;
   bottom: 0;
@@ -93,16 +95,16 @@ body {
 }
 .tagLine h1 {
   color: white;
-  font-size: 4rem;
+  font-size: 6rem;
 }
 .entry-btn {
   position: absolute;
   right: 0;
   bottom: 15%;
   text-decoration: none;
-  border: solid 2px;
+  border: solid 2px white;
   padding: 1.01rem;
-  font-size: 2rem;
-  color: white;
-  margin-right: 10px;
+  font-size: 3rem;
+  color: #f6c90e;
+  margin-right: 20px;
 }
